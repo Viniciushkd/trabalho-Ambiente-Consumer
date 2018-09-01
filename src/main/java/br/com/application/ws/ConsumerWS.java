@@ -22,9 +22,11 @@ public class ConsumerWS {
 	public String producer() {
 		return "<h1>Consumer Web Service</h1>"
 		 		+ "Consumir Queue Objeto:<br>"
-		 		+ "<b>WS:</b> \\consumerPerson<br><br>"
+		 		+ "<b>WS:</b> \\consumerPerson<br>"
+		 		+ "<b>Exemplo:</b> http://localhost:9500/consumerPerson<br><br>"
 		 		+ "Consumir Queue Texto:<br>"
-		 		+ "<b>WS:</b> \\consumerMessage<br><br>"
+		 		+ "<b>WS:</b> \\consumerMessage<br>"
+		 		+ "<b>Exemplo:</b> http://localhost:9500/consumerMessage<br><br>"
 		 		+ "Consumir Queue Route File:<br>"
 		 		+ "<b>WS:</b> \\startRouteConsumer";
 	}

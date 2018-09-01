@@ -28,7 +28,8 @@ public class ConsumerWS {
 		 		+ "<b>WS:</b> \\consumerMessage<br>"
 		 		+ "<b>Exemplo:</b> http://localhost:9500/consumerMessage<br><br>"
 		 		+ "Consumir Queue Route File:<br>"
-		 		+ "<b>WS:</b> \\startRouteConsumer";
+		 		+ "<b>WS:</b> \\startRouteConsumer<br>"
+		 		+ "<b>Caminho:</b> C:\\routeOut";
 	}
 
 	@RequestMapping("/consumerPerson")
